@@ -41,6 +41,15 @@
     <Media Include="Resources\dank.wav">
       <Filter>Resource Files</Filter>
     </Media>
+    <Media Include="Resources\altf4.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\taskmgr.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\welcome.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <None Include="wav1.bin">

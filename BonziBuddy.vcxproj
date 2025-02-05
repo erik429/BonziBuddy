@@ -121,10 +121,11 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -141,7 +142,10 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="Resources\altf4.wav" />
     <Media Include="Resources\dank.wav" />
+    <Media Include="Resources\taskmgr.wav" />
+    <Media Include="Resources\welcome.wav" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wav1.bin" />
